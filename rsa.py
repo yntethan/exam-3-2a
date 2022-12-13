@@ -131,7 +131,7 @@ if __name__ == "__main__":
             #           called decrypted.txt
             public_key_path = "private.pem"
             encrypted_message = open("encrypted.txt", "rb").read()
-            # TODO: call the encrypt_message function
+            # TODO: call the decrypt_message function
             
         elif option == "b":
             # part b: decrypt the message given in sus.txt using one of the keys in key_pairs
