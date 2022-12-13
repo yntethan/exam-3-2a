@@ -9,11 +9,11 @@ The starter code is in `rsa.py`. Complete it and submit only `rsa.py` to Gradesc
 ## Options to implement
 
 ```
-a. Generate a public/private key pair, encrypt, and decrypt
-b. Find the right key and decrypt the message in sus.txt
-c. Sign a message and verify it
-d. Find signature
-q. Quit
+a. Generate public and private keys 
+b. Find the right key and decrypt the message in sus.txt 
+c. Sign a message and verify it 
+d. Find Miss Reveille's key pair that she used to sign rev.txt 
+q. Quit 
 ```
 
 ### a. Generate a public/private key pair, encrypt, and decrypt
