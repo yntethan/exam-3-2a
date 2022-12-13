@@ -1,10 +1,3 @@
-"""
-The correct answer for part b is: [FLAG CAPTURED] e.g. CSCE313{this_is_a_flag}
-The correct answer for part d is: [KEY PAIR'S NAME] e.g. the 5 letters
-HINTs:
-- Recommended implementation steps: a -> find_decrypt_key -> b -> c -> find_sign_key -> d
-"""
-
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_OAEP
 from Crypto.Hash import SHA256
