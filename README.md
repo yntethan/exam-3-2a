@@ -3,7 +3,7 @@
 In this assignment, you will use RSA functions to discover the secret behind the mysterious `sus.txt` and `rev.txt` files.
 
 The content of the file `sus.txt` is encrypted using a public key. Your task is to find the correct
-private key out of 20 possible keys in `key_pairs` directory to decrypt that message.
+private key out of 20 possible keys in the `key_pairs` directory to decrypt that message.
 The starter code is in `rsa.py`. Complete it and submit only `rsa.py` to Gradescope.
 
 ## Options to implement
@@ -26,7 +26,7 @@ q. Quit
 1. Write the function `find_decrypt_key`, to find which key in the `key_pairs` directory can decrypt the `sus.txt` message.
 1. Once you find the right key, decrypt the file `sus.txt`. 
 1. Write the decrypted message in the file `sus_decrypted.txt`. Note: You should realize it was written by Miss Rev.
-1. Your next task is to find Miss Rev's signature key in `key_pairs` directory. **This is not the same key as the one used in part b**.
+1. Your next task is to find Miss Rev's signature key in the `key_pairs` directory. **This is not the same key as the one used in part b**.
 
 ### c. Sign a message using the private key from part a.1 and verify the signature
 
@@ -65,6 +65,6 @@ make clean
 ## Important notes:
 1. A small starter video here: https://youtu.be/4Le42qqSZeA
 2. You only need read(`r`) and write(`w`) access to the files. Use the `b` flag when opening the files along with `r` and `w`. Read more at: https://www.programiz.com/python-programming/methods/built-in/open
-3. In the key_pairs directory, the public key suffix is `_pub` and the private key suffix is `_priv`
+3. In the key_pairs directory, the public key suffix is `_pub`, and the private key suffix is `_priv`.
 4. Your program will be manually tested for correctness with additional test cases.
 5. Your program should execute with no errors and warnings.
