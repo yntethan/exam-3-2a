@@ -23,14 +23,14 @@ q. Quit
 
 ### b. Find the right key and decrypt the message in sus.txt
 
-1. Write the function `find_decrypt_key`, to find which key in the `key_pairs` directory can decrypt the `sus.txt` message.
+1. Write the function `find_decrypt_key()`, to find which key in the `key_pairs` directory can decrypt the `sus.txt` message.
 1. Once you find the right key, decrypt the file `sus.txt`. 
 1. Write the decrypted message in the file `sus_decrypted.txt`. Note: You should realize it was written by Miss Rev.
 1. Your next task is to find Miss Rev's signature key in the `key_pairs` directory. **This is not the same key as the one used in part b**.
 
 ### c. Sign a message using the private key from part a.1 and verify the signature
 
-Write the functions `sign_message` and `verify_message` to sign and verify a message, respectively.
+Write the functions `sign_message()` and `verify_message()` to sign and verify a message, respectively.
 1. Sign a message using the private key from part a.1.
 1. Write the signature in a file `signed_msg.txt`.
 1. Verify the signature using the public key from part a.1.
