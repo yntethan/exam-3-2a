@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
             # part a.3: decrypt that exact message and output it to a file 
             #           called decrypted.txt
-            public_key_path = "private.pem"
+            private_key_path = "private.pem"
             encrypted_message = open("encrypted.txt", "rb").read()
             # TODO: call the decrypt_message function
             
